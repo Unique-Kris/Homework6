@@ -11,7 +11,7 @@ public class Main {
             System.out.println(i);}
 
         System.out.println("Задание 3");
-        for(int i=0; i<=17; i++) {
+        for(int i = 2; i <= 17; i = i * 2) {
             System.out.println(i);}
 
         System.out.println("Задание 4");
@@ -31,28 +31,21 @@ public class Main {
             System.out.println(i);}
 
         System.out.println("Задание 8");
-        for(int i = 1; i <= 512; i = i * 2) {
-            System.out.println(i);}
-
-        System.out.println("Задание 9");
         int deposit = 29000;
         int total = 0;
         for (int i = 1; i <= 12; i++) {
             total = total + deposit;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");}
-        System.out.println(total);
 
         System.out.println("Задание 9");
         int deposit2 = 29000;
         int total2 = 0;
         for (int i = 1; i <= 12; i++) {
-            total2 = total2 + total2/100;
             total2 = total2 + deposit2;
+            total2 = total2 + total2 / 100;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total2 + " рублей");}
-        System.out.println(total2);
 
         System.out.println("Задание 10");
-        int b = 1;
         for (int i = 1; i <= 10; i++) {
             System.out.println("2 * " + i + " = " + 2 * i);
         }
